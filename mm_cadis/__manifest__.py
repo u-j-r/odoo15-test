@@ -22,12 +22,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','sale_management'],
+    'depends': ['base','sale_management','contacts'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/inherit_sale_order_views.xml',
+        'views/inherit_res_partner_views.xml',
         
     ],
     # only loaded in demonstration mode
