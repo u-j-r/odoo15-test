@@ -1,0 +1,56 @@
+.o_home_menu .o_home_menu_scrollable .o_apps .o_app .o_caption {
+    margin: 4px 0;
+    display: block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    color: #000000;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 80%)
+}
+
+.o_home_menu .o_menuitems .o_menuitem:hover .o_menuitem_parents, .o_home_menu .o_menuitems .o_menuitem:focus .o_menuitem_parents, .o_home_menu .o_menuitems .o_menuitem.o_focused .o_menuitem_parents {
+    color: #000000;
+}
+
+.o_home_menu .o_menuitems .o_menuitem .o_menuitem_parents {
+    font-weight: 300;
+    color: #000000;
+}
+
+.o_home_menu .o_menu_search .o_menu_search_input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-shadow: inherit;
+}
+
+.o_home_menu .o_menuitems .o_menuitem {
+    color: #000000;
+    outline: none;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 30%);
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+.o_home_menu .o_menuitems .o_menuitem:hover, .o_home_menu .o_menuitems .o_menuitem:focus, .o_home_menu .o_menuitems .o_menuitem.o_focused {
+    color: black;
+}
+
+.o_home_menu .o_menu_search .o_menu_search_input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-shadow: inherit;
+}
