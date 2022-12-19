@@ -28,7 +28,7 @@
     'data': [
         # 'security/ir.model.access.csv',
         'views/inherit_sale_order_views.xml',
-        'views/inherit_res_partner_views.xml',
+        'views/inherit_res_partner.xml',
         
     ],
     # only loaded in demonstration mode
