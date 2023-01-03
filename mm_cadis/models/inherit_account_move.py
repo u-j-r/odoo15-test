@@ -6,5 +6,5 @@ class InheritAccount(models.Model):
     _inherit = 'account.move'
   
 
-    mm_taxe_inh = fields.One2many('res.partner', 'mm_taxe', string='TAX ID')
+    mm_taxe_inh = fields.One2many('res.partner', 'vat', string='TAX ID')
     
