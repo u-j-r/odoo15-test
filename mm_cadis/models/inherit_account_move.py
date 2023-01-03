@@ -10,5 +10,5 @@ class InheritAccount(models.Model):
     _inherit = 'account.move'
     _description = 'inherit account'
 
-    child_parent = fields.Many2many('res.partner', string='mm_taxe')
+    mm_taxex = fields.Many2many('res.partner', string='mm_taxe')
     
