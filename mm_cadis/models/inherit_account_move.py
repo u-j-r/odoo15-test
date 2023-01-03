@@ -6,4 +6,4 @@ from odoo import models, fields, api
 class AccountMove(models.Model):
     _inherit = 'account.move'
 
-    mm_taxe_rel = fields.Many2one('res.partner.mm_taxe', string='TAX ID')
+    mm_taxe = fields.Many2one('res.partner', string='TAX ID')
