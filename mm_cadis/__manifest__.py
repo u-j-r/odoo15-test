@@ -22,12 +22,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','sale_management','contacts'],
+    'depends': ['base','sale_management','contacts','account_accountant'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/inherit_sale_order_views.xml',
+        'views/inherit_account_move.xml',
         'views/inherit_res_partner.xml',
         
     ],
